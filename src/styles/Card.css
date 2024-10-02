@@ -1,0 +1,70 @@
+.card-container {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: white;
+  width: 100%; /* Set to 100% of the column width */
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.user-avatar-initials {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #6c757d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-id {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin: 16px 0;
+}
+
+.card-tags .tag {
+  display: inline-block;
+  background-color: #e7e7e7;
+  color: #6c757d;
+  padding: 4px 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.card-status {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.card-priority {
+  font-size: 18px;
+}
+
+.priority-icon {
+  font-size: 20px;
+  color: red;
+}
